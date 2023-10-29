@@ -288,7 +288,7 @@ Papers that are published in this week.
 
 :::tip
 
-You can get all short name of a journal from <https://www.nature.com/siteindex> or [Journal List](#nature-journal-journal-list).
+You can get all short name of a journal from [https://www.nature.com/siteindex](https://www.nature.com/siteindex) or [Journal List](#nature-journal-journal-list).
 
 :::
 
@@ -405,7 +405,7 @@ Some topics require adding `topic/` to `topicPath` like [`/pnas/topic/app-math`]
 
 For the parameter **filter**, the `filter` parameter in the URL should be split into a string by `,`, here is an example.
 
-In <https://pubmed.ncbi.nlm.nih.gov/trending/?filter=simsearch1.fha&filter=pubt.clinicaltrial&filter=pubt.randomizedcontrolledtrial>, the filter parameters are `simsearch1.fha`, `pubt.clinicaltrial`, and `pubt.randomizedcontrolledtrial`. Therefore, the filter corresponding to the route should be filled with `simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial`, and the route is [`/pubmed/trending/simsearch1.fha,pubt .clinicaltrial,pubt.randomizedcontrolledtrial`](https://rsshub.app/pubmed/trending/simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial)
+In `https://pubmed.ncbi.nlm.nih.gov/trending/?filter=simsearch1.fha&filter=pubt.clinicaltrial&filter=pubt.randomizedcontrolledtrial`, the filter parameters are `simsearch1.fha`, `pubt.clinicaltrial`, and `pubt.randomizedcontrolledtrial`. Therefore, the filter corresponding to the route should be filled with `simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial`, and the route is [`/pubmed/trending/simsearch1.fha,pubt .clinicaltrial,pubt.randomizedcontrolledtrial`](https://rsshub.app/pubmed/trending/simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial)
 
 :::
 
@@ -553,11 +553,11 @@ Return results from 2020
 
 </Route>
 
-## X-MOL Platform {#x-mol-platform}
+## X-MOL {#x-mol}
 
-### Journal {#x-mol-platform-journal}
+### Journal {#x-mol-journal}
 
-<Route author="cssxsh" example="/x-mol/paper/0/9" path="/x-mol/paper/:type/:magazine" paramsDesc={['type','magazine']} />
+<Route author="cssxsh" example="/x-mol/paper/0/9" path="/x-mol/paper/:type/:magazine" paramsDesc={['type','magazine']} anticrawler="1"/>
 
 ## 管理世界 {#guan-li-shi-jie}
 
